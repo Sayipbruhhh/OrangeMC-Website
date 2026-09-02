@@ -1,0 +1,44 @@
+.image-uploader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.image-uploader__preview {
+  width: 84px;
+  height: 84px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px dashed var(--color-border-strong);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.image-uploader__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-uploader__empty {
+  font-size: 11px;
+  color: var(--color-text-faint);
+  text-align: center;
+  padding: 0 6px;
+}
+
+.image-uploader__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.image-uploader__error {
+  width: 100%;
+  color: #ff8f87;
+  font-size: 12.5px;
+  margin-top: 6px;
+}

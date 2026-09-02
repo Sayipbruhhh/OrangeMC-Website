@@ -1,0 +1,27 @@
+.feature-card {
+  height: 100%;
+}
+
+.feature-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-ember);
+  color: var(--color-orange-soft);
+  margin-bottom: 20px;
+}
+
+.feature-card__title {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 10px;
+}
+
+.feature-card__desc {
+  font-size: 14.5px;
+  color: var(--color-text-dim);
+}

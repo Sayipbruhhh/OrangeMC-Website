@@ -1,0 +1,38 @@
+.rules-card__category {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.rules-card__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rules-card__item {
+  padding-left: 18px;
+  border-left: 2px solid var(--color-border-strong);
+}
+
+.rules-card__item--high {
+  border-left-color: var(--color-red);
+}
+
+.rules-card__item--medium {
+  border-left-color: var(--color-orange);
+}
+
+.rules-card__item-title {
+  font-size: 14.5px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 4px;
+}
+
+.rules-card__item-desc {
+  font-size: 13.5px;
+}

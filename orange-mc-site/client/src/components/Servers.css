@@ -1,0 +1,73 @@
+.server-card__image {
+  height: 150px;
+  border-radius: var(--radius-sm);
+  background-size: cover;
+  background-position: center;
+  margin: -28px -28px 20px;
+  width: calc(100% + 56px);
+}
+
+.server-card__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 12px;
+}
+
+.server-card__name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.server-card__status {
+  font-size: 11px;
+  text-transform: capitalize;
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text-dim);
+  flex-shrink: 0;
+}
+
+.server-card__status--online {
+  background: rgba(74, 222, 128, 0.14);
+  color: #4ade80;
+}
+
+.server-card__status--offline {
+  background: rgba(255, 92, 92, 0.14);
+  color: #ff5c5c;
+}
+
+.server-card__desc {
+  font-size: 14.5px;
+  margin-bottom: 20px;
+}
+
+.server-card__meta {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-border);
+}
+
+.server-card__meta div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.server-card__meta span {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-faint);
+}
+
+.server-card__meta strong {
+  font-size: 13.5px;
+  color: var(--color-text);
+  font-weight: 600;
+}

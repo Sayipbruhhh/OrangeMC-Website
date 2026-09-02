@@ -1,0 +1,46 @@
+:root {
+  /* Palette */
+  --color-bg: #0a0806;
+  --color-bg-alt: #100c09;
+  --color-surface: #16110c;
+  --color-border: rgba(255, 154, 61, 0.14);
+  --color-border-strong: rgba(255, 154, 61, 0.3);
+
+  --color-text: #f4ede4;
+  --color-text-dim: #b8a99a;
+  --color-text-faint: #7a6c5f;
+
+  --color-orange: #ff7a00;
+  --color-orange-soft: #ffab5c;
+  --color-red: #ff3b30;
+  --color-ember: #643515;
+
+  --gradient-flame: linear-gradient(135deg, #ff7a00 0%, #ff3b30 100%);
+  --gradient-ember: linear-gradient(180deg, rgba(255, 122, 0, 0.16), rgba(100, 53, 21, 0.05));
+
+  /* Type */
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  /* Layout */
+  --container-width: 1180px;
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-glow: 0 0 40px rgba(255, 122, 0, 0.15);
+  --shadow-card: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
